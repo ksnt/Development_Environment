@@ -1,12 +1,3 @@
 #!/bin/sh
-# [Gedit Tool]
-# Input=nothing
-# Save-files=nothing
-# Applicability=all
-# Output=output-panel
-
-name=`echo $1 | sed 's/\.tex$//'`
-temp=`mktemp /tmp/$name.XXXXXXXX`
-nkf -w $1 >$temp #utf-8で出力
-platex $temp
-rm $tem
+/home/ksn/.gnome2/gedit/tools/platex-utf8.sh $GEDIT_CURRENT_DOCUMENT_NAME
+dvipdfmx `echo $GEDIT_CURRENT_DOCUMENT_NAME | sed 's/tex$/dvi/'`
