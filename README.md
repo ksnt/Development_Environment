@@ -1,4 +1,4 @@
-# Development Environment for Research
+# Environment Setting Files for Development and Research
 
 
 These might be added  
