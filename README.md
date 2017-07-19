@@ -1,8 +1,12 @@
 # Development Environment for Research
 
 
-These might be added 
-<li>Tex</li>
-<li>gedit for Tex</li>
-<li> ~/.emacs</li>
-<li> ~/.bashrc</li>
+These might be added  
+
+| The Place |
+|:------------:|
+| Tex |
+| gedit for Tex |
+| ~/.emacs |
+| ~/.bashrc |
+| ~/.vimrc |
